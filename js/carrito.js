@@ -130,6 +130,16 @@ function actualizarTotal() {
 
 botonComprar.addEventListener("click", comprarCarrito);
 function comprarCarrito() {
+    const mensajeProductos = productosEnCarrito
+  .map(p => `- ${p.titulo} (Cantidad: ${p.cantidad}) – Subtotal: $${p.precio * p.cantidad}`)
+  .join("\n");
+
+    const totalCalculado = productosEnCarrito.reduce((acc, p) => acc + (p.precio * p.cantidad), 0);
+
+    const mensaje = encodeURIComponent(
+  `Hola, quiero hacer la compra de lo siguiente:\n${mensajeProductos}\n\nTotal del pedido: $${totalCalculado}`
+);
+
 
     productosEnCarrito.length = 0;
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
@@ -138,5 +148,16 @@ function comprarCarrito() {
     contenedorCarritoProductos.classList.add("disabled");
     contenedorCarritoAcciones.classList.add("disabled");
     contenedorCarritoComprado.classList.remove("disabled");
+
+  const telefono = "584142476996";
+  const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+  const baseUrl = isMobile
+    ? "https://wa.me/"
+    : "https://web.whatsapp.com/send?phone=";
+
+  const url = `${baseUrl}${telefono}&text=${mensaje}`;
+  window.open(url, "_blank");
+
 
 }
