@@ -27,6 +27,11 @@ ul {
 a {
     text-decoration: none;
 }
+.frente{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .wrapper {
     display: grid;
@@ -393,8 +398,3 @@ main {
 
 
 
-@media screen and (max-width: 400px) {
-    .contenedor-productos {
-        grid-template-columns: 1fr;
-    }
-}
