@@ -156,7 +156,9 @@ function comprarCarrito() {
     ? "https://wa.me/"
     : "https://web.whatsapp.com/send?phone=";
 
-  const url = `${baseUrl}${telefono}&text=${mensaje}`;
+  const url = isMobile
+    ? `${baseUrl}${telefono}?text=${mensaje}`
+    : `${baseUrl}${telefono}&text=${mensaje}`;
   window.open(url, "_blank");
 
 

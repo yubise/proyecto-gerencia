@@ -14,8 +14,8 @@
         "titulo": "Abrigo 02",
         "imagen": "./img/abrigos/02.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "Camisetas",
+            "id": "camisetas"
         },
         "precio": 1000
     },
@@ -24,8 +24,8 @@
         "titulo": "Abrigo 03",
         "imagen": "./img/abrigos/03.jpg",
         "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
+            "nombre": "Juguetes",
+            "id": "juguetes"
         },
         "precio": 1000
     }
