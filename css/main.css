@@ -66,6 +66,12 @@ aside {
     flex-direction: column;
     gap: .5rem;
 }
+.footer-class{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 55%;
+}
 
 .boton-menu {
     background-color: transparent;
@@ -78,6 +84,18 @@ aside {
     font-weight: 600;
     padding: 1rem;
     font-size: .85rem;
+    width: 100%;
+}
+.boton-redes {
+    background-color: var(--clr-white);
+    border: 0;
+    color: var(--clr-main-light);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 0.6rem;
+    border-radius: 2rem;
     width: 100%;
 }
 
@@ -135,7 +153,7 @@ aside {
 }
 
 .texto-footer {
-    color: var(--clr-main-light);
+    color: var(--clr-white);
     font-size: .85rem;
 }
 
