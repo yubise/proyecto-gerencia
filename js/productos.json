@@ -14,8 +14,8 @@
         "titulo": "Abrigo 02",
         "imagen": "./img/abrigos/02.jpg",
         "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
+            "nombre": "Abrigos",
+            "id": "abrigos"
         },
         "precio": 1000
     },
@@ -24,8 +24,128 @@
         "titulo": "Abrigo 03",
         "imagen": "./img/abrigos/03.jpg",
         "categoria": {
+            "nombre": "Abrigos",
+            "id": "abrigos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "carro-01",
+        "titulo": "Carro 01",
+        "imagen": "./img/carros/carro1.jpg",
+        "categoria": {
             "nombre": "Juguetes",
             "id": "juguetes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "carro-02",
+        "titulo": "Carro 02",
+        "imagen": "./img/carros/carro2.jpg",
+        "categoria": {
+            "nombre": "Juguetes",
+            "id": "juguetes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "carro-03",
+        "titulo": "Carro 03",
+        "imagen": "./img/carros/carro3.jpg",
+        "categoria": {
+            "nombre": "Juguetes",
+            "id": "juguetes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "carro-04",
+        "titulo": "Carro 04",
+        "imagen": "./img/carros/carro4.jpg",
+        "categoria": {
+            "nombre": "Juguetes",
+            "id": "juguetes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "carro-05",
+        "titulo": "Carro 05",
+        "imagen": "./img/carros/carro5.jpg",
+        "categoria": {
+            "nombre": "Juguetes",
+            "id": "juguetes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "carro-06",
+        "titulo": "Carro 06",
+        "imagen": "./img/carros/carro6.jpg",
+        "categoria": {
+            "nombre": "Juguetes",
+            "id": "juguetes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "carro-07",
+        "titulo": "Carro 07",
+        "imagen": "./img/carros/carro7.jpg",
+        "categoria": {
+            "nombre": "Juguetes",
+            "id": "juguetes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "carro-08",
+        "titulo": "Carro 08",
+        "imagen": "./img/carros/carro8.jpg",
+        "categoria": {
+            "nombre": "Juguetes",
+            "id": "juguetes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "carro-09",
+        "titulo": "Carro 09",
+        "imagen": "./img/carros/carro9.jpg",
+        "categoria": {
+            "nombre": "Juguetes",
+            "id": "juguetes"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "consola-01",
+        "titulo": "Consola 01",
+        "imagen": "./img/consolas/consola1.jpg",
+        "categoria": {
+            "nombre": "Consolas",
+            "id": "consolas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "consola-02",
+        "titulo": "Consola 02",
+        "imagen": "./img/consolas/consola2.jpg",
+        "categoria": {
+            "nombre": "Consolas",
+            "id": "consolas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "powerbank",
+        "titulo": "Powerbank",
+        "imagen": "./img/consumo/powerbank.jpg",
+        "categoria": {
+            "nombre": "Consumo",
+            "id": "consumo"
         },
         "precio": 1000
     }
