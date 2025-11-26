@@ -53,9 +53,9 @@ aside {
 
 .logo {
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1rem;
     padding: .5rem;
-    font: oblique bold 150% cursive;
+    font: 800 160% "Nunito", sans-serif;
 }
 
 .frente {
@@ -88,9 +88,9 @@ aside {
     width: 100%;
 }
 .boton-redes {
-    background-color: var(--clr-white);
+    background-color: var(--clr-main-light);
     border: 0;
-    color: var(--clr-main-light);
+    color: var(--clr-white);
     cursor: pointer;
     display: flex;
     align-items: center;
